@@ -4,6 +4,7 @@ function changeText(){
 	
 	let htag = document.createElement("h1");
 	htag.textContent = "Entered Metaverse";
+	htag.id = "status";
 
 	ptag.parentNode.replaceChild(htag , ptag);
 	
